@@ -1354,7 +1354,7 @@ const projects = [
     {
         name: "MSA BITJ Website",
         category: "Web Development",
-        description: "A highly-dynamic and immersive platform built for the MSA BIT Jaipur community. I absolutely love how we've blended sleek, dark-mode aesthetics with smooth, interactive animations (like the infinite scrolling marquees). It makes the digital experience feel as energetic, premium, and cutting-edge as the community it represents!",
+        description: "The official digital hub for the MSA BIT Jaipur community, featuring a modern dark-mode aesthetic, dynamic member showcases, and seamless event discovery.",
         technologies: [
             "Next.js",
             "TypeScript",
