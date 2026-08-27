@@ -135,13 +135,11 @@ const MotionController = (0, __TURBOPACK__imported__module__$5b$project$5d2f$nod
     throw new Error("Attempted to call MotionController() from the server but MotionController is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
 }, "[project]/components/layout/MotionController.tsx <module evaluation>", "MotionController");
 }),
-"[project]/components/layout/MotionController.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
+"[project]/components/layout/MotionController.tsx [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$layout$2f$MotionController$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/components/layout/MotionController.tsx [app-rsc] (client reference proxy) <module evaluation>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$layout$2f$MotionController$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/components/layout/MotionController.tsx [app-rsc] (client reference proxy)");
-;
-__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$layout$2f$MotionController$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
+var e = new Error("Could not parse module '[project]/components/layout/MotionController.tsx'\n\nExpression expected");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
 }),
 "[project]/components/layout/SiteFooter.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
