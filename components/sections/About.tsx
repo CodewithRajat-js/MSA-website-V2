@@ -1,0 +1,3 @@
+import { PhotoSlot } from "@/components/ui/PhotoSlot";
+import { SectionHeading } from "@/components/ui/SectionHeading";
+export function About() { return <section id="about" className="about section-light"><SectionHeading number="01" title={"WHO\nWE ARE"} /><div className="about-content"><PhotoSlot label="MSA team portrait" /><div><p>MSA BIT Jaipur is a student-led technology community creating opportunities to learn, build, collaborate, and grow—on campus and beyond.</p><a className="text-link" href="#people">MEET THE TEAM <span aria-hidden="true">→</span></a></div></div></section>; }

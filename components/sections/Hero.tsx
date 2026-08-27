@@ -1,0 +1,3 @@
+import Image from "next/image";
+
+export function Hero() { return <section className="hero" aria-labelledby="hero-title"><div className="hero-image" aria-hidden="true" /><div className="hero-brand"><Image src="/images/brand/msa-logo-transparent.png" alt="Microsoft Learn Student Ambassador" width={190} height={174} priority /></div><div className="hero-copy"><h1 id="hero-title">WE DON’T JUST<br /><em>ATTEND</em> COLLEGE.<br />WE <em>BUILD</em> THINGS.<br />WE BRING PEOPLE <em>TOGETHER.</em><br />WE MAKE THINGS <em>HAPPEN.</em></h1><div className="hero-meta"><p>MSA BIT JAIPUR<br /><span>STUDENT COMMUNITY</span></p><a href="#about">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a></div></div></section>; }
