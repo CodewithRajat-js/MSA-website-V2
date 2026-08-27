@@ -135,11 +135,13 @@ const MotionController = (0, __TURBOPACK__imported__module__$5b$project$5d2f$nod
     throw new Error("Attempted to call MotionController() from the server but MotionController is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
 }, "[project]/components/layout/MotionController.tsx <module evaluation>", "MotionController");
 }),
-"[project]/components/layout/MotionController.tsx [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/components/layout/MotionController.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
 
-var e = new Error("Could not parse module '[project]/components/layout/MotionController.tsx'\n\nExpression expected");
-e.code = 'MODULE_UNPARSABLE';
-throw e;
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$layout$2f$MotionController$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/components/layout/MotionController.tsx [app-rsc] (client reference proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$layout$2f$MotionController$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/components/layout/MotionController.tsx [app-rsc] (client reference proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$layout$2f$MotionController$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
 }),
 "[project]/components/layout/SiteFooter.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -245,10 +247,29 @@ function SiteFooter() {
                 columnNumber: 309
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
+                style: {
+                    display: 'flex',
+                    justifyContent: 'space-between'
+                },
                 children: [
-                    "© ",
-                    new Date().getFullYear(),
-                    " MSA BIT Jaipur. All rights reserved."
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        children: [
+                            "© ",
+                            new Date().getFullYear(),
+                            " MSA BIT Jaipur. All rights reserved."
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/layout/SiteFooter.tsx",
+                        lineNumber: 2,
+                        columnNumber: 561
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        children: "Architected by Rajat"
+                    }, void 0, false, {
+                        fileName: "[project]/components/layout/SiteFooter.tsx",
+                        lineNumber: 2,
+                        columnNumber: 639
+                    }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/layout/SiteFooter.tsx",
