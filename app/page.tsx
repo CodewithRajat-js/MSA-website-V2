@@ -6,9 +6,8 @@ import { EventsArchive } from "@/components/sections/EventsArchive";
 import { Hero } from "@/components/sections/Hero";
 import { JoinCta } from "@/components/sections/JoinCta";
 import { Partners } from "@/components/sections/Partners";
-import { PeopleShowcase } from "@/components/sections/PeopleShowcase";
 import { Projects } from "@/components/sections/Projects";
 
 export default function Home() {
-  return <main id="top"><MotionController /><SiteHeader /><Hero /><About /><EventsArchive /><PeopleShowcase /><Projects /><Partners /><JoinCta /><SiteFooter /></main>;
+  return <main id="top"><MotionController /><SiteHeader /><Hero /><About /><EventsArchive /><Projects /><Partners /><JoinCta /><SiteFooter /></main>;
 }

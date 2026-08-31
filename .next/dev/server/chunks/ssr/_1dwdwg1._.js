@@ -111,6 +111,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$site$2e$ts__$5b$app$
 ;
 function SiteHeader() {
     const [menuOpen, setMenuOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const formUrl = __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$site$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["microsoftFormEmbedUrl"].replace("&embed=true", "");
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
         className: "site-header",
         children: [
@@ -127,14 +128,14 @@ function SiteHeader() {
                         priority: true
                     }, void 0, false, {
                         fileName: "[project]/components/navigation/SiteHeader.tsx",
-                        lineNumber: 12,
+                        lineNumber: 13,
                         columnNumber: 77
                     }, this),
                     "MSA BIT JAIPUR"
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/navigation/SiteHeader.tsx",
-                lineNumber: 12,
+                lineNumber: 13,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -150,27 +151,29 @@ function SiteHeader() {
                                 children: item.label
                             }, void 0, false, {
                                 fileName: "[project]/components/navigation/SiteHeader.tsx",
-                                lineNumber: 17,
+                                lineNumber: 18,
                                 columnNumber: 15
                             }, this)
                         }, item.href, false, {
                             fileName: "[project]/components/navigation/SiteHeader.tsx",
-                            lineNumber: 16,
+                            lineNumber: 17,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/navigation/SiteHeader.tsx",
-                    lineNumber: 14,
+                    lineNumber: 15,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/navigation/SiteHeader.tsx",
-                lineNumber: 13,
+                lineNumber: 14,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                 className: "join-link",
-                href: "#apply",
+                href: formUrl,
+                target: "_blank",
+                rel: "noopener noreferrer",
                 children: [
                     "JOIN US ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -178,13 +181,13 @@ function SiteHeader() {
                         children: "↗"
                     }, void 0, false, {
                         fileName: "[project]/components/navigation/SiteHeader.tsx",
-                        lineNumber: 22,
-                        columnNumber: 52
+                        lineNumber: 23,
+                        columnNumber: 95
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/navigation/SiteHeader.tsx",
-                lineNumber: 22,
+                lineNumber: 23,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -199,7 +202,7 @@ function SiteHeader() {
                         children: "Toggle navigation"
                     }, void 0, false, {
                         fileName: "[project]/components/navigation/SiteHeader.tsx",
-                        lineNumber: 24,
+                        lineNumber: 25,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -207,19 +210,19 @@ function SiteHeader() {
                         children: menuOpen ? "×" : "☰"
                     }, void 0, false, {
                         fileName: "[project]/components/navigation/SiteHeader.tsx",
-                        lineNumber: 24,
+                        lineNumber: 25,
                         columnNumber: 59
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/navigation/SiteHeader.tsx",
-                lineNumber: 23,
+                lineNumber: 24,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/navigation/SiteHeader.tsx",
-        lineNumber: 11,
+        lineNumber: 12,
         columnNumber: 5
     }, this);
 }
