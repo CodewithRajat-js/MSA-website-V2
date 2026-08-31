@@ -112,6 +112,7 @@ export function PeopleShowcase() {
               sublabel={member.role}
               src={member.image} 
               href={member.linkedin}
+              objectPosition={(member as any).objectPosition}
             />
           ))}
         </div>

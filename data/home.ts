@@ -19,7 +19,7 @@ export const pocTeam = [
 export const ogTeam = [
   { name: "Priyanshu Raj", role: "The OGs", image: "/images/people/priyanshu-raj.jpg", linkedin: "" },
   { name: "Yatharth", role: "The OGs", image: "/images/people/yk.jpeg", linkedin: "" },
-  { name: "Shubh Gupta", role: "The OGs", image: "/images/people/shubh-gupta.jpg", linkedin: "" },
+  { name: "Shubh Gupta", role: "The OGs", image: "/images/people/shubh-gupta.png", linkedin: "" },
 ];
 
 export const headsTeam = [

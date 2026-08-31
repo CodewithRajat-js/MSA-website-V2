@@ -533,7 +533,8 @@ function PeopleShowcase() {
                                 label: member.name,
                                 sublabel: member.role,
                                 src: member.image,
-                                href: member.linkedin
+                                href: member.linkedin,
+                                objectPosition: member.objectPosition
                             }, member.name, false, {
                                 fileName: "[project]/components/sections/PeopleShowcase.tsx",
                                 lineNumber: 108,
@@ -832,6 +833,12 @@ const ogTeam = [
         name: "Yatharth",
         role: "The OGs",
         image: "/images/people/yk.jpeg",
+        linkedin: ""
+    },
+    {
+        name: "Shubh Gupta",
+        role: "The OGs",
+        image: "/images/people/shubh-gupta.png",
         linkedin: ""
     }
 ];

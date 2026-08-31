@@ -1194,6 +1194,12 @@ const ogTeam = [
         role: "The OGs",
         image: "/images/people/yk.jpeg",
         linkedin: ""
+    },
+    {
+        name: "Shubh Gupta",
+        role: "The OGs",
+        image: "/images/people/shubh-gupta.png",
+        linkedin: ""
     }
 ];
 const headsTeam = [
