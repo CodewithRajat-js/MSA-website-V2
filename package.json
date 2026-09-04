@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@gsap/react": "latest",
+    "@vercel/analytics": "^2.0.1",
     "gsap": "latest",
     "lenis": "latest",
     "next": "latest",

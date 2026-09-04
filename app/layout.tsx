@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Inter, Outfit } from "next/font/google";
 import { SmoothScroll } from "@/components/layout/SmoothScroll";
 import "./globals.css";
@@ -16,7 +17,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="en" className={`${inter.variable} ${outfit.variable}`}>
       <body>
         <SmoothScroll>{children}</SmoothScroll>
+        <Analytics />
       </body>
     </html>
   );
 }
+
